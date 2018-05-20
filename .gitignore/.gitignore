@@ -34,8 +34,9 @@ build/Release
 
 # Dependency directories
 node_modules/
+**/node_modules/
 */node_modules/
-/node_modules/
+ReduxSimpleStarter/node_modules/
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -61,3 +62,10 @@ typings/
 
 # next.js build output
 .next
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
