@@ -1,15 +1,10 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
-// import { bindActionCreators } from 'redux';
 import Chart from '../components/chart';
 import GoogleMap from '../components/google_map';
 
 
 class WeatherList extends Component{
-
-    // constructor(props){
-    //     super(props);
-    // }
 
     renderWeather(cityData){
         const name = cityData.city.name;
@@ -20,7 +15,6 @@ class WeatherList extends Component{
 
         return(
             <tr key={name}>
-                {/* <td>{name}</td> */}
                 <td><GoogleMap lon={lon} lat={lat}/></td>
                 <td><Chart data={temps} color="orange" units="K"/></td>
                 <td><Chart data={pressures} color="purple" units="hPa"/></td>
