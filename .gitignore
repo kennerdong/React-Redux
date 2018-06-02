@@ -68,3 +68,6 @@ typings/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+#npm lock
+package-lock.json
