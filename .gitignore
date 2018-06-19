@@ -71,3 +71,4 @@ typings/
 
 #npm lock
 package-lock.json
+bundle.js
