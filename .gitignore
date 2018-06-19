@@ -70,4 +70,3 @@ typings/
 !.vscode/extensions.json
 
 #npm lock
-bundle.js

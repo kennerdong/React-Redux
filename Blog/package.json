@@ -7,10 +7,7 @@
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch",
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -rf ./build/index.bundle.js",
-    "compile": "NODE_ENV=production webpack --config ./webpack.config.js --progress"
+    "test:watch": "npm run test -- --watch"
   },
   "author": "",
   "license": "ISC",
@@ -37,7 +34,6 @@
     "react-router-dom": "^4.2.2",
     "redux": "4.0.0",
     "redux-form": "^6.6.3",
-    "redux-promise": "^0.6.0",
-    "yarn": "^1.7.0"
+    "redux-promise": "^0.6.0"
   }
 }
